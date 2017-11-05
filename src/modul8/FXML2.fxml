@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modul8.FXML2Controller">
+   <children>
+      <Label layoutX="134.0" layoutY="14.0" text="Hasil Penegecekan Kesehatan">
+         <font>
+            <Font name="Bell MT Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Nama" layoutX="134.0" layoutY="57.0" prefHeight="35.0" prefWidth="333.0" text="Label" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="308.0" AnchorPane.leftAnchor="134.0" AnchorPane.rightAnchor="133.0" AnchorPane.topAnchor="57.0">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="Ta" editable="false" layoutX="45.0" layoutY="110.0" prefHeight="207.0" />
+      <JFXButton layoutX="270.0" layoutY="338.0" onAction="#Exit" text="Exit">
+         <font>
+            <Font name="Kristen ITC" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
